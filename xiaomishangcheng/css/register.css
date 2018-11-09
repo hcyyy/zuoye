@@ -1,0 +1,152 @@
+html,
+body,
+h1,
+h2,
+h3,
+h5,
+h6,
+blockquote,
+p,
+pre,
+dl,
+dd,
+ol,
+ul,
+li,
+a,
+span,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+address {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style-type: none;
+}
+*{margin: 0;padding: 0;}
+.bj {
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+	color: #666;
+	background: #E4E4E4;
+	padding-top: 20px;
+}
+
+.bj .zck {
+	width: 854px;
+	min-height: 400px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 34px 34px 0;
+}
+
+.bj .zck .xmbt {
+	width: 786px;
+	height: 68px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	display: block;
+	text-align: center;
+}
+
+.bj .zck .xmbt i {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	background: #FFAC13;
+}
+
+.bj .zck .xmbt .zc-xiaomi {
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+.bj .zck .xmzh {
+	display: block;
+	margin: 0 auto;
+	width: 786px;
+	height: 60px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.bj .zck form{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bj .zck form .yh{
+	display: inline-block;
+	width: 396px;
+	height: 40px;
+	margin-bottom: 40px;
+}
+
+.bj .zck form .mima{
+	display: inline-block;
+	width: 396px;
+	height: 40px;
+	margin-bottom: 40px;
+}
+
+.bj .zck form .zcan{
+	display: inline-block;
+	width: 396px;
+	height: 40px;
+	background-color: #ff6700;
+}
+
+
+.bj .msg{
+	width: 800px;
+	height: 60px;
+	margin: 30px auto;
+	text-align: center;
+	padding-top: 40px;
+	line-height: 60px;
+}
+
+.bj .msg a{
+	color: #000000;
+}
+
+.bt{
+	min-width: 1226px;
+    text-align: center;	
+}
+
+.bt ul{
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.bt .bt-1 li{
+	float: left;
+	margin-right: 30px;
+}
+
+.bt .bt-1 li a{
+	color: #757575;
+}
+
+.bt .bt-1 li span{
+	margin-left: 20px;
+}
+.bt .bt-2{
+	color: #757575;
+}

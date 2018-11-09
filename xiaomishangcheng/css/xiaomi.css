@@ -1,0 +1,573 @@
+html {
+	font-family: "微软雅黑";
+}
+
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div,
+dl,
+dt,
+dd,
+input,
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-webkit-overflow-scrolling: touch;
+	text-align: left;
+	max-height: 100%;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+li {
+	list-style: none
+}
+
+img {
+	border: none;
+	max-width: 100%;
+}
+
+input,
+select,
+textarea {
+	border: none;
+	outline: none;
+	background: none
+}
+
+em,
+i {
+	font-style: normal
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 865140 */
+  src: url('//at.alicdn.com/t/font_865140_o4g9rlks6a.eot');
+  src: url('//at.alicdn.com/t/font_865140_o4g9rlks6a.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_865140_o4g9rlks6a.woff') format('woff'),
+  url('//at.alicdn.com/t/font_865140_o4g9rlks6a.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_865140_o4g9rlks6a.svg#iconfont') format('svg');
+}
+
+
+
+
+
+
+.size-topbar{
+	position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+
+.container{
+	width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.topbar-nav{
+	float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.topbar-nav a{
+	color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.topbar-nav span{
+	margin: 0 .2em;
+    color: #424242;
+}
+
+
+
+.topbar-cart{
+	width: 120px;
+	height: 40px;
+	position: relative;
+    float: right;
+    margin-left: 15px;
+}
+
+
+.cart-mini{
+	position: relative;
+    z-index: 32;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background: #424242;
+}
+
+.cart-mini i{
+	margin-right: 4px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: -4px;
+}
+
+.cart-mini-num{
+	margin-left: -4px;
+}
+
+.cart-menu{
+	display: none;
+	position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 31;
+    width: 316px;
+    padding: 15px 0 0;
+    color: #424242;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.loading{
+	margin: 5px 20px 20px;
+	padding: 20px 0;
+    text-align: center;
+}
+
+
+
+.topbar-info{
+	position: relative;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+
+.link{
+	padding: 0 5px;
+    text-align: center;
+    float: left;
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+.sep{
+	float: left;
+	color: #424242;
+}
+
+.message{
+	float: left;
+	padding: 0 10px;
+}
+
+.message a{
+	color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*顶部导航条结束*/
+
+.site-header{
+	position: relative;
+    z-index: 20;
+    height: 100px;
+}
+
+.container{
+	position: relative;
+	width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*图标*/
+.header-logo{
+	float: left;
+    width: 62px;
+    margin-top: 22px;
+}
+
+.logo{
+	position: relative;
+    display: block;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    background-color: #ff6700;
+    color: #757575;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo .zc-xiaomi{
+	font-size: 40px;
+	line-height: 55px;
+	color: white;
+}
+
+.doodle{
+	display: block;
+}
+
+.link-block{
+	position: absolute;
+    left: 80px;
+    top: 0;
+    z-index: 21;
+    width: 165px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999em;
+    background-image: url(//i1.mifile.cn/a4/cms_15410669089659_TZmzr.gif);
+}
+
+
+/*列表*/
+.header-nav{
+	float: left;
+    width: 820px;
+}
+
+.nav-list{
+	position: relative;
+    z-index: 10;
+    float: left;
+    width: 820px;
+    height: 100px;
+    margin: 0;
+    padding: 12px 0 0 180px;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.nav-item{
+	float: left;
+}
+
+.item-link{
+	display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+
+.item-children{
+	display: none;
+}
+
+.container{
+	width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.figure a{
+	color: #757575;
+    text-decoration: none;
+}
+
+.figure a img{
+	width: 160px;
+    height: 110px;
+    border: 0;
+}
+
+.title a{
+	color: #757575;
+    text-decoration: none;
+}
+
+.price{
+	margin: 1em 0;
+}
+
+
+
+
+/*搜索框*/
+.header-search{
+	float: right;
+    width: 296px;
+    margin-top: 25px;
+}
+
+.search-form{
+	position: relative;
+    width: 296px;
+    height: 50px;
+}
+
+.hide{
+	display: none !important;
+}
+
+.search-text{
+	position: absolute;
+    top: 0;
+    right: 51px;
+    z-index: 1;
+    width: 223px;
+    height: 48px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 48px;
+    outline: 0;
+    transition: all .2s;
+}
+
+.search-btn{
+	position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: 52px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;
+    outline: 0;
+    transition: all .2s;
+}
+
+.search-hot-words{
+	position: absolute;
+    top: 14px;
+    right: 62px;
+    z-index: 2;
+    text-align: right;
+}
+
+.search-hot-words a{
+	display: inline-block;
+	margin-left: 5px;
+    padding: 0 5px;
+    font-size: 12px;
+    background: #eee;
+    color: #757575;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+.keyword-list{
+	position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: 20;
+    width: 243px;
+    border: 1px solid #ff6700;
+    border-top: 0;
+    background: #fff;
+}
+
+.result-list{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*搜索框导航栏结束*/
+
+.header-nav-menu{
+	display: none;
+	position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 24;
+    width: 100%;
+    height: 229px;
+    border-top: 1px solid #e0e0e0;
+    background: #fff;
+}
+
+.container{
+	position: relative;
+}
+
+.children-list{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.children-list li{
+	position: relative;
+    float: left;
+    width: 180px;
+    padding: 35px 12px 0;
+    text-align: center;
+}
+
+.children-list li .figure-thumb{
+	width: 160px;
+    height: 110px;
+    margin: 0 auto 16px;
+    text-align: center;
+}
+
+.children-list li .figure-thumb img{
+	width: 160px;
+    height: 110px;
+    border: 0;
+}
+
+.header-nav-menu .title a {
+    color: #333;
+}
+
+/*次级导航结束*/
+
+/*轮播图部分开始*/
+.home-hero-container{
+	position: relative;
+    z-index: 10;
+}
+
+.container{
+	width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-category{
+	display: block;
+	position: absolute;
+    top: 0px;
+    left: 16px;
+    z-index: 20;
+    width: 234px;
+    height: 448px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.hero-category-list{
+	position: relative;
+	height: 448px;
+    border: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    margin: 0;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+
+.item-title{
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+.item-title i{
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255,255,255,0.5);
+}
+
+.hero-children{
+	display: none;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    z-index: 24;
+    width: 992px;
+    height: 458px;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+}
+
+
+.hchildren-list-col{
+	width: 248px;
+	float: left;
+	height: 458px;
+    margin: 0;
+    padding: 2px 0;
+    list-style-type: none;
+}
+
+.hchildren-list-col li{
+    float: left;
+    width: 265px;
+    height: 76px;
+}
+
+.hero-link{
+	display: block;
+    padding: 18px 20px;
+    line-height: 40px;
+    color: #333;
+    transition: color .2s;
+}
+
+.thumb{
+	margin-right: 12px;
+    vertical-align: middle;
+}
+
+.hero-link .text{
+	line-height: 40px;
+}
+
+.swiper-container{
+	width: 100%;
+	height: 460px;
+}
+
+.swiper-slide{
+	float: left;
+}
+
+/*轮播图下方栏目*/
+.home-hero-sub{
+	
+}

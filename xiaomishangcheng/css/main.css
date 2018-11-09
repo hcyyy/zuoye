@@ -1,0 +1,345 @@
+﻿html {
+	font-family: "微软雅黑";
+}
+
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div,
+dl,
+dt,
+dd,
+input,
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-webkit-overflow-scrolling: touch;
+	text-align: left;
+	max-height: 100%;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+li {
+	list-style: none
+}
+
+img {
+	border: none;
+	max-width: 100%;
+}
+
+input,
+select,
+textarea {
+	border: none;
+	outline: none;
+	background: none
+}
+
+em,
+i {
+	font-style: normal
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal
+}
+
+
+.wrapper{
+	width: 1263px;
+	height: auto;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	display: block;
+    min-height: auto;
+}
+
+.logo{
+	width: 1130px;
+	height: 98px;
+	margin: 0 auto;
+}
+
+.bgiframe{
+    width: 1263px;
+    height: 588px;
+    position: relative;
+	display: block;
+    z-index: 3;
+    background: url(../images/datu.jpg) no-repeat;
+    background-position: -650px 0px;
+}
+
+.layout{
+	width: 410px;
+    min-height: 524px;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-size: 14px;
+    z-index: 4;
+    background: white;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+}
+
+.login-main{
+	width: 410px;
+	height: 308px;
+}
+
+.nav-tb{
+	width: 410px;
+	height: 82px;
+}
+
+.nav-tabs{
+	padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #e0e0e0;
+}
+
+.navtbs-link{
+	width: 96px;
+	height: 27px;
+	color: #666;
+}
+
+.line{
+	width: 1px;
+    height: 24px;
+    margin: 0 35px 0 42px;
+    border: 1px solid #e0e0e0;
+}
+
+.tabs-con{
+	width: 410px;
+	height: 226px;
+}
+
+.login-area{
+	width: 348px;
+    margin: 0 auto;
+}
+
+.login-form{
+	display: block;
+	margin: 0;
+    padding: 0;
+}
+
+.login-box{
+	position: relative;
+}
+
+.lgn-input{
+	width: 348px;
+	height: 124px;
+}
+
+.labelbox{
+	display: block;
+	width: 348px;
+	height: 50px;
+	margin-bottom: 14px;
+    border: 1px solid #e0e0e0;
+}
+
+.account{
+	width: 306px;
+	height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    color: #333;
+}
+
+
+.btns{
+	width: 348px;
+	height: 60px;
+}
+
+.btninp{
+	background-color: #ef5b00;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin: 14px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.other{
+	margin-top: -5px;
+	width: 348px;
+	height: 19px;
+}
+
+.sms-link{
+	float: left;
+}
+
+.sms-btn{
+	display: block;
+	width: 100%;
+    height: auto;
+    margin: 0;
+    line-height: normal;
+    text-align: center;
+    cursor: pointer;
+    border: 0 none;
+    font-size: 14px;
+    color: #ef5b00;
+    background-color: #fff;
+}
+
+
+.reverse .re-link{
+    text-align: center;
+    float: right;
+    padding-top: 0;
+    color: #999; 
+}
+
+.out-link{
+	color: #999;
+	border: 0 none;
+	text-decoration: none;
+}
+
+.re-link span{
+	padding-left: 5px;
+	color: #999;
+	text-align: center;
+}
+
+.oth-lgn-type{
+	display: block;
+	padding-top: 0;
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+.oth-typ{
+	border: none;
+	border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+.oth-txt{
+	color: #bbb;
+	font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.oth-link{
+	padding-top: 3px;
+	text-align: center;
+}
+
+.oth-link .sns-login-link{
+	margin: 0 17px;
+	width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sns-login-link .iconfont{
+	display: block;
+    margin: 4px auto 0;
+    background-position: -19px 0;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.tb-qq{
+	color:#269ABC;
+}
+
+.tb-icon_xinlang-chunselogo{
+	color: red;
+}
+
+.tb-zhifubao{
+	color: #5BC0DE;
+}
+
+.tb-weixin{
+	color: green;
+}
+
+	
+.foot{
+	width: 1263px;
+	height: 80px;
+	background: #fff;
+    margin-top: 100px;
+    position: relative;
+    z-index: 4;
+    height: 80px;
+    text-align: center;
+}
+
+.ft-link{
+	text-align: center;
+}
+
+.ft-link-list li{
+	display: inline-block;
+}
+
+.ft-link-list li .lang-select-li{
+	display: inline-block;
+	padding: 0 10px;
+	color: #333;
+}
+
+.fk-intro{
+	padding: 10px;
+}
+
+.fk-record{
+	color: #757575;
+}
+
+
